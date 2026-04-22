@@ -1,0 +1,7 @@
+CREATE OR REPLACE PACKAGE ZooPackage AS
+    PROCEDURE NewPet(i IN NUMBER, nev IN CHAR, fajta IN CHAR, szul IN DATE, suly IN NUMBER, ertek IN NUMBER);
+    PROCEDURE DelPet (i IN NUMBER);
+    PROCEDURE ModPet(i IN NUMBER, gond IN CHAR);
+    PROCEDURE ListPet;
+    FUNCTION PetNumber RETURN NUMBER;
+END ZooPackage;
