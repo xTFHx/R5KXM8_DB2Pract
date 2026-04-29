@@ -1,0 +1,6 @@
+CREATE TABLE Vasarlo (
+    VID VARCHAR(4) PRIMARY KEY,
+    NEV VARCHAR(20),
+    CIM VARCHAR(30),
+    FIZMOD INT     
+);
